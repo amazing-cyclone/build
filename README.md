@@ -9,6 +9,9 @@
 <a href=https://github.com/armbian/build/commits/main><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/armbian/build/main?logo=github&label=Last%20commit&style=for-the-badge&branch=main&logoColor=white"></a>
 </p>
 
+## Cyclone custom compile command
+./compile.sh build BOARD=orangepi5-max-cyclone BUILD_DESKTOP=yes BRANCH=vendor BUILD_MINIMAL=no DESKTOP_APPGROUPS_SELECTED='browsers chat desktop_tools editors email internet multimedia office programming remote_desktop' DESKTOP_ENVIRONMENT=xfce DESKTOP_ENVIRONMENT_CONFIG_NAME=config_base KERNEL_CONFIGURE=no RELEASE=noble
+
 ## What does this project do?
 
 - Builds custom **kernel**, **image** or a **distribution** optimized for low-resource hardware,
